@@ -17,9 +17,9 @@ def zebpay():
     }
     # coinlist array, sequentially add all required coins to this
     coinlist=[]
-    time= math.floor(time.time())
+    times= math.floor(time.time())
     #update time of updateTimestamp ( only once in whole routine)
-    res["updateTimestamp"]=time
+    res["updateTimestamp"]=times
     #get database
     response= http.request('GET', 'https://www.zebapi.com/pro/v1/market/')
     coindata = response.data.decode("utf-8")
