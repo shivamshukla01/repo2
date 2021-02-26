@@ -53,8 +53,8 @@ def coindcx():
     coin = {
           "coinUID": 4,
           "coinName": "DOGE",
-          "coinbuyprice": float(coindata[3]["bid"]),
-          "coinsellprice": float(coindata[3]["ask"])
+          "coinbuyprice": float(coindata[506]["bid"]),
+          "coinsellprice": float(coindata[506]["ask"])
     }
     coinlist.append(coin)
     #=====================
@@ -62,8 +62,8 @@ def coindcx():
     coin = {
           "coinUID": 5,
           "coinName": "TRON",
-          "coinbuyprice": float(coindata[618]["bid"]),
-          "coinsellprice": float(coindata[618]["ask"])
+          "coinbuyprice": float(coindata[617]["bid"]),
+          "coinsellprice": float(coindata[617]["ask"])
     }
     coinlist.append(coin)
     #=====================
