@@ -3,6 +3,7 @@ from zebpay import zebpay
 from coindcx import coindcx
 from collect import collect
 from bitbns import bitbns
+from buyucoin import buyucoin
 
 def main():
     count=1
