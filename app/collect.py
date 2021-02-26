@@ -9,37 +9,37 @@ def collect():
      {
       "coinUID": 1,
       "coinName": "BTC",
-      "imageURL": "http://url",
+      "imageURL": "https://i.ibb.co/r6FTxDK/btc.png",
       "exchanges": []
       },
       {
       "coinUID": 2,
       "coinName": "ETH",
-      "imageURL": "http://url",
+      "imageURL": "https://i.ibb.co/MgDLkcx/eth.png",
       "exchanges": []
       },
       {
       "coinUID": 3,
       "coinName": "LTC",
-      "imageURL": "http://url",
+      "imageURL": "https://i.ibb.co/mXLkxGD/ltc.png",
       "exchanges": []
       },
       {
       "coinUID": 4,
       "coinName": "DOGE",
-      "imageURL": "http://url",
+      "imageURL": "https://i.ibb.co/x2RPkr2/kisspng-dogecoin-cryptocurrency-dash-digital-currency-doge-5ad13b0da01474-3329552115236615816557.jpg",
       "exchanges": []
       },
       {
       "coinUID": 5,
       "coinName": "TRX",
-      "imageURL": "http://url",
+      "imageURL": "https://i.ibb.co/zX17Xrm/trx.png",
       "exchanges": []
       },
       {
       "coinUID": 6,
       "coinName": "ADA",
-      "imageURL": "http://url",
+      "imageURL": "https://i.ibb.co/B3W0Ghw/ada.png",
       "exchanges": []
       }]
 
