@@ -5,6 +5,8 @@ MAINTAINER shivam
 LABEL Version="0.1"
 
 # RUN apk --update --no-cache add py-pip
+RUN apk add add git
+RUN git clone https://github.com/shivamshukla01/repo2
 RUN pip install boto3
 
 WORKDIR /root/dev
