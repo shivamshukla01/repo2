@@ -18,7 +18,7 @@ def coindcx():
     response= http.request('GET', 'https://api.coindcx.com/exchange/ticker')
     coindata = response.data.decode("utf-8")
     coindata = json.loads(coindata)
-    coindata[0]['timestamp']
+    res["updateTimestamp"]=coindata[0]['timestamp']
 
     #======coin 1 BTC===
     coin = {
