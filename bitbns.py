@@ -69,7 +69,7 @@ def bitbns():
     #=====================
     #======coin 6 ADA===
     coin = {
-          "coinUID": 1,
+          "coinUID": 6,
           "coinName": "ADA",
           "coinbuyprice": coindata['ADA']['highest_buy_bid'],
           "coinsellprice": coindata['ADA']['lowest_sell_bid']
