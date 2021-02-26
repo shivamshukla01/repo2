@@ -1,0 +1,16 @@
+uid mapping:
+
+coins:
+    - 1: BTC
+    - 2: ETH
+    - 3: LTC
+    - 4: DOGE
+    - 5: TRON
+    - 6: ADA
+
+Exchanges:
+    - 1: wazirX
+    - 2: ZebPay
+    - 3: Coindcx
+    - 4: bitbns
+    - 5: buyucoin
