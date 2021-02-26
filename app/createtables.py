@@ -8,10 +8,6 @@ def createtables():
             {
                 'AttributeName': 'exchnum',
                 'KeyType': 'HASH'  #Partition key
-            },
-            {
-                'AttributeName': 'data',
-                'KeyType': 'RANGE'  #Sort key
             }
         ],
         AttributeDefinitions=[
@@ -37,10 +33,6 @@ def createtables():
             {
                 'AttributeName': 'list',
                 'KeyType': 'HASH'  #Partition key
-            },
-            {
-                'AttributeName': 'data',
-                'KeyType': 'RANGE'  #Sort key
             }
         ],
         AttributeDefinitions=[
