@@ -10,4 +10,4 @@ RUN apk add git
 RUN git clone https://github.com/shivamshukla01/repo2
 RUN pip install boto3
 WORKDIR /root/dev/repo2
-CMD ["ls"]
+CMD ["sh deploy.sh"]
