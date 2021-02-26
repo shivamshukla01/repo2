@@ -5,10 +5,9 @@ MAINTAINER shivam
 LABEL Version="0.1"
 
 # RUN apk --update --no-cache add py-pip
+WORKDIR /root/dev
 RUN apk add git
 RUN git clone https://github.com/shivamshukla01/repo2
 RUN pip install boto3
 
-WORKDIR /root/dev
-
-CMD ["python3"]
+CMD ["sh", deploy.sh"]
