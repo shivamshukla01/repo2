@@ -2,7 +2,7 @@ import urllib3
 import json
 import boto3
 
-def lambda_handler(event, context):
+def wazirx():
     http = urllib3.PoolManager()
     #result dict object
     res={
