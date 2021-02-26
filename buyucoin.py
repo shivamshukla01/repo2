@@ -25,8 +25,8 @@ def buyucoin():
     coin = {
           "coinUID": 1,
           "coinName": "BTC",
-          "coinbuyprice": coindata['data'][1]['bid'],
-          "coinsellprice": coindata['data'][1]['ask']
+          "coinbuyprice": float(coindata['data'][1]['bid']),
+          "coinsellprice": float(coindata['data'][1]['ask'])
     }
     coinlist.append(coin)
     #=====================
@@ -34,8 +34,8 @@ def buyucoin():
     coin = {
           "coinUID": 2,
           "coinName": "ETH",
-          "coinbuyprice": coindata['data'][3]['bid'],
-          "coinsellprice": coindata['data'][3]['ask']
+          "coinbuyprice": float(coindata['data'][3]['bid']),
+          "coinsellprice": float(coindata['data'][3]['ask'])
     }
     coinlist.append(coin)
 
@@ -43,8 +43,8 @@ def buyucoin():
     coin = {
           "coinUID": 3,
           "coinName": "LTC",
-          "coinbuyprice": coindata['data'][9]['bid'],
-          "coinsellprice": coindata['data'][9]['ask']
+          "coinbuyprice": float(coindata['data'][9]['bid']),
+          "coinsellprice": float(coindata['data'][9]['ask'])
     }
     coinlist.append(coin)
 
@@ -52,8 +52,8 @@ def buyucoin():
     coin = {
           "coinUID": 5,
           "coinName": "TRX",
-          "coinbuyprice": coindata['data'][27]['bid'],
-          "coinsellprice": coindata['data'][27]['ask']
+          "coinbuyprice": float(coindata['data'][27]['bid']),
+          "coinsellprice": float(coindata['data'][27]['ask'])
     }
     coinlist.append(coin)
     #===================
