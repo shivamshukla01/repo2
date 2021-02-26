@@ -14,12 +14,7 @@ def createtables():
             {
                 'AttributeName': 'exchnum',
                 'AttributeType': 'N'
-            },
-            {
-                'AttributeName': 'data',
-                'AttributeType': 'S'
-            },
-
+            }
         ],
         ProvisionedThroughput={
             'ReadCapacityUnits': 5,
@@ -39,12 +34,7 @@ def createtables():
             {
                 'AttributeName': 'list',
                 'AttributeType': 'N'
-            },
-            {
-                'AttributeName': 'data',
-                'AttributeType': 'S'
-            },
-
+            }
         ],
         ProvisionedThroughput={
             'ReadCapacityUnits': 5,
