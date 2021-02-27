@@ -19,76 +19,84 @@ def coindcx():
     coindata = response.data.decode("utf-8")
     coindata = json.loads(coindata)
     res["updateTimestamp"]=coindata[0]['timestamp']
-
+    for i in coindata:
+        if(i["market"]=="BTCINR"):
+            print("BTCINR found")
     #======coin 1 BTC===
-    coin = {
-          "coinUID": 1,
-          "coinName": "BTC",
-          "coinbuyprice": float(coindata[0]["bid"]),
-          "coinsellprice": float(coindata[0]["ask"])
-    }
-    coinlist.append(coin)
+            coin = {
+                "coinUID": 1,
+                "coinName": "BTC",
+                "coinbuyprice": float(i["bid"]),
+                "coinsellprice": float(i["ask"])
+                }
+            coinlist.append(coin)
     #=====================
-
+        elif(i["market"]=="ETHINR"):
+            print("ETHINR found")
     #======coin 2 ETH===
-    coin = {
-          "coinUID": 2,
-          "coinName": "ETH",
-          "coinbuyprice": float(coindata[15]["bid"]),
-          "coinsellprice": float(coindata[15]["ask"])
-    }
-    coinlist.append(coin)
+            coin = {
+                "coinUID": 2,
+                "coinName": "ETH",
+                "coinbuyprice": float(i["bid"]),
+                "coinsellprice": float(i["ask"])
+                }
+            coinlist.append(coin)
     #=====================
-
-    #======coin 3 LTC===
-    coin = {
-          "coinUID": 3,
-          "coinName": "LTC",
-          "coinbuyprice": float(coindata[67]["bid"]),
-          "coinsellprice": float(coindata[67]["ask"])
-    }
-    coinlist.append(coin)
+        elif(i["market"]=="LTCINR"):
+            print("LTCINR found")
+    #======coin 1 BTC===
+            coin = {
+                "coinUID": 3,
+                "coinName": "LTC",
+                "coinbuyprice": float(i["bid"]),
+                "coinsellprice": float(i["ask"])
+                }
+            coinlist.append(coin)
     #=====================
-    #======coin 4 DOGE===
-    coin = {
-          "coinUID": 4,
-          "coinName": "DOGE",
-          "coinbuyprice": float(coindata[506]["bid"]),
-          "coinsellprice": float(coindata[506]["ask"])
-    }
-    coinlist.append(coin)
+        elif(i["market"]=="DOGEINR"):
+    #======coin 1 BTC===
+            coin = {
+                "coinUID": 4,
+                "coinName": "DOGE",
+                "coinbuyprice": float(i["bid"]),
+                "coinsellprice": float(i["ask"])
+                }
+            coinlist.append(coin)
     #=====================
-    #======coin 5 TRON===
-    coin = {
-          "coinUID": 5,
-          "coinName": "TRON",
-          "coinbuyprice": float(coindata[617]["bid"]),
-          "coinsellprice": float(coindata[617]["ask"])
-    }
-    coinlist.append(coin)
+        elif(i["market"]=="TRXINR"):
+    #======coin 1 BTC===
+            coin = {
+                "coinUID": 5,
+                "coinName": "TRX",
+                "coinbuyprice": float(i["bid"]),
+                "coinsellprice": float(i["ask"])
+                }
+            coinlist.append(coin)
     #=====================
-    #======coin 6 ADA===
-    coin = {
-          "coinUID": 6,
-          "coinName": "ADA",
-          "coinbuyprice": float(coindata[633]["bid"]),
-          "coinsellprice": float(coindata[633]["ask"])
-    }
-    coinlist.append(coin)
+        elif(i["market"]=="ADAINR"):
+    #======coin 1 BTC===
+            coin = {
+                "coinUID": 6,
+                "coinName": "ADA",
+                "coinbuyprice": float(i["bid"]),
+                "coinsellprice": float(i["ask"])
+                }
+            coinlist.append(coin)
+    #=====================
+        else:
+            pass
     #=====================
     res["coins"]= coinlist
+    print(res)
     s = json.dumps(res)
-
     dynamodb = boto3.resource('dynamodb', region_name='us-east-2')
     table = dynamodb.Table('coin')
-
     response = table.put_item(
            Item={
                 'exchnum': 3,
                 'data': s
             }
         )
-
     return {
         'statusCode': 200
     }
