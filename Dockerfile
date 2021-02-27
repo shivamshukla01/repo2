@@ -9,4 +9,4 @@ WORKDIR /root/dev
 RUN apk add git
 RUN pip install boto3
 ADD ./deploy.sh ./deploy.sh
-CMD ["ash deploy.sh"]
+ENTRYPOINT ["ash","deploy.sh"]
