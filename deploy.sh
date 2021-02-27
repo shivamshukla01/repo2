@@ -4,4 +4,4 @@ pwd
 cd /root/dev/repo2/app
 pwd
 ls
-python3 main.py
+python main.py
