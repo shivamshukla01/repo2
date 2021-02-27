@@ -27,19 +27,19 @@ def collect():
       {
       "coinUID": 4,
       "coinName": "DOGE",
-      "imageURL": "https://i.ibb.co/x2RPkr2/kisspng-dogecoin-cryptocurrency-dash-digital-currency-doge-5ad13b0da01474-3329552115236615816557.jpg",
+      "imageURL": "https://i.ibb.co/rfKcGKg/doge.png",
       "exchanges": []
       },
       {
       "coinUID": 5,
       "coinName": "TRX",
-      "imageURL": "https://i.ibb.co/zX17Xrm/trx.png",
+      "imageURL": "https://i.ibb.co/V2kQzBn/trx.png",
       "exchanges": []
       },
       {
       "coinUID": 6,
       "coinName": "ADA",
-      "imageURL": "https://i.ibb.co/B3W0Ghw/ada.png",
+      "imageURL": "https://i.ibb.co/93fPJ2T/ada.png",
       "exchanges": []
       }]
 
