@@ -28,8 +28,8 @@ def wazirx():
     coin = {
           "coinUID": 1,
           "coinName": "BTC",
-          "coinbuyprice": float(coindata["ticker"]["buy"]),
-          "coinsellprice": float(coindata["ticker"]["sell"])
+          "coinbuyprice": float(coindata["ticker"]["sell"]),
+          "coinsellprice": float(coindata["ticker"]["buy"])
     }
 
     coinlist.append(coin)
@@ -45,8 +45,8 @@ def wazirx():
     coin = {
           "coinUID": 2,
           "coinName": "ETH",
-          "coinbuyprice": float(coindata["ticker"]["buy"]),
-          "coinsellprice": float(coindata["ticker"]["sell"])
+          "coinbuyprice": float(coindata["ticker"]["sell"]),
+          "coinsellprice": float(coindata["ticker"]["buy"])
     }
 
     coinlist.append(coin)
@@ -62,8 +62,8 @@ def wazirx():
     coin = {
           "coinUID": 3,
           "coinName": "LTC",
-          "coinbuyprice": float(coindata["ticker"]["buy"]),
-          "coinsellprice": float(coindata["ticker"]["sell"])
+          "coinbuyprice": float(coindata["ticker"]["sell"]),
+          "coinsellprice": float(coindata["ticker"]["buy"])
     }
 
     coinlist.append(coin)
@@ -79,8 +79,8 @@ def wazirx():
     coin = {
           "coinUID": 4,
           "coinName": "DOGE",
-          "coinbuyprice": float(coindata["ticker"]["buy"]),
-          "coinsellprice": float(coindata["ticker"]["sell"])
+          "coinbuyprice": float(coindata["ticker"]["sell"]),
+          "coinsellprice": float(coindata["ticker"]["buy"])
     }
 
     coinlist.append(coin)
@@ -96,8 +96,8 @@ def wazirx():
     coin = {
           "coinUID": 5,
           "coinName": "TRX",
-          "coinbuyprice": float(coindata["ticker"]["buy"]),
-          "coinsellprice": float(coindata["ticker"]["sell"])
+          "coinbuyprice": float(coindata["ticker"]["sell"]),
+          "coinsellprice": float(coindata["ticker"]["buy"])
     }
 
     coinlist.append(coin)
@@ -113,8 +113,8 @@ def wazirx():
     coin = {
           "coinUID": 6,
           "coinName": "ADA",
-          "coinbuyprice": float(coindata["ticker"]["buy"]),
-          "coinsellprice": float(coindata["ticker"]["sell"])
+          "coinbuyprice": float(coindata["ticker"]["sell"]),
+          "coinsellprice": float(coindata["ticker"]["buy"])
     }
 
     coinlist.append(coin)

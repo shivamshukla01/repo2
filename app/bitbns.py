@@ -25,8 +25,8 @@ def bitbns():
     coin = {
           "coinUID": 1,
           "coinName": "BTC",
-          "coinbuyprice": coindata['BTC']['highest_buy_bid'],
-          "coinsellprice": coindata['BTC']['lowest_sell_bid']
+          "coinbuyprice": coindata['BTC']['lowest_sell_bid'],
+          "coinsellprice": coindata['BTC']['highest_buy_bid']
     }
     coinlist.append(coin)
     #=====================
@@ -35,8 +35,8 @@ def bitbns():
     coin = {
           "coinUID": 2,
           "coinName": "ETH",
-          "coinbuyprice": coindata['ETH']['highest_buy_bid'],
-          "coinsellprice": coindata['ETH']['lowest_sell_bid']
+          "coinbuyprice": coindata['ETH']['lowest_sell_bid'],
+          "coinsellprice": coindata['ETH']['highest_buy_bid']
     }
     coinlist.append(coin)
     #=====================
@@ -44,8 +44,8 @@ def bitbns():
     coin = {
           "coinUID": 3,
           "coinName": "LTC",
-          "coinbuyprice": coindata['LTC']['highest_buy_bid'],
-          "coinsellprice": coindata['LTC']['lowest_sell_bid']
+          "coinbuyprice": coindata['LTC']['lowest_sell_bid'],
+          "coinsellprice": coindata['LTC']['highest_buy_bid']
     }
     coinlist.append(coin)
     #=====================
@@ -53,8 +53,8 @@ def bitbns():
     coin = {
           "coinUID": 4,
           "coinName": "DOGE",
-          "coinbuyprice": coindata['DOGE']['highest_buy_bid'],
-          "coinsellprice": coindata['DOGE']['lowest_sell_bid']
+          "coinbuyprice": coindata['DOGE']['lowest_sell_bid'],
+          "coinsellprice": coindata['DOGE']['highest_buy_bid']
     }
     coinlist.append(coin)
     #=====================
@@ -62,8 +62,8 @@ def bitbns():
     coin = {
           "coinUID": 5,
           "coinName": "TRX",
-          "coinbuyprice": coindata['TRX']['highest_buy_bid'],
-          "coinsellprice": coindata['TRX']['lowest_sell_bid']
+          "coinbuyprice": coindata['TRX']['lowest_sell_bid'],
+          "coinsellprice": coindata['TRX']['highest_buy_bid']
     }
     coinlist.append(coin)
     #=====================
@@ -71,8 +71,8 @@ def bitbns():
     coin = {
           "coinUID": 6,
           "coinName": "ADA",
-          "coinbuyprice": coindata['ADA']['highest_buy_bid'],
-          "coinsellprice": coindata['ADA']['lowest_sell_bid']
+          "coinbuyprice": coindata['ADA']['lowest_sell_bid'],
+          "coinsellprice": coindata['ADA']['highest_buy_bid']
     }
     coinlist.append(coin)
     #=====================

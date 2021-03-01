@@ -26,8 +26,8 @@ def coindcx():
             coin = {
                 "coinUID": 1,
                 "coinName": "BTC",
-                "coinbuyprice": float(i["bid"]),
-                "coinsellprice": float(i["ask"])
+                "coinbuyprice": float(i["ask"]),
+                "coinsellprice": float(i["bid"])
                 }
             coinlist.append(coin)
     #=====================
@@ -37,8 +37,8 @@ def coindcx():
             coin = {
                 "coinUID": 2,
                 "coinName": "ETH",
-                "coinbuyprice": float(i["bid"]),
-                "coinsellprice": float(i["ask"])
+                "coinbuyprice": float(i["ask"]),
+                "coinsellprice": float(i["bid"])
                 }
             coinlist.append(coin)
     #=====================
@@ -48,8 +48,8 @@ def coindcx():
             coin = {
                 "coinUID": 3,
                 "coinName": "LTC",
-                "coinbuyprice": float(i["bid"]),
-                "coinsellprice": float(i["ask"])
+                "coinbuyprice": float(i["ask"]),
+                "coinsellprice": float(i["bid"])
                 }
             coinlist.append(coin)
     #=====================
@@ -58,8 +58,8 @@ def coindcx():
             coin = {
                 "coinUID": 4,
                 "coinName": "DOGE",
-                "coinbuyprice": float(i["bid"]),
-                "coinsellprice": float(i["ask"])
+                "coinbuyprice": float(i["ask"]),
+                "coinsellprice": float(i["bid"])
                 }
             coinlist.append(coin)
     #=====================
@@ -68,8 +68,8 @@ def coindcx():
             coin = {
                 "coinUID": 5,
                 "coinName": "TRX",
-                "coinbuyprice": float(i["bid"]),
-                "coinsellprice": float(i["ask"])
+                "coinbuyprice": float(i["ask"]),
+                "coinsellprice": float(i["bid"])
                 }
             coinlist.append(coin)
     #=====================
@@ -78,8 +78,8 @@ def coindcx():
             coin = {
                 "coinUID": 6,
                 "coinName": "ADA",
-                "coinbuyprice": float(i["bid"]),
-                "coinsellprice": float(i["ask"])
+                "coinbuyprice": float(i["ask"]),
+                "coinsellprice": float(i["bid"])
                 }
             coinlist.append(coin)
     #=====================
